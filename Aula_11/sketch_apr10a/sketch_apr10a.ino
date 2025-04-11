@@ -144,7 +144,7 @@ void loop() {
   }
 
  
-  enviarParaThingSpeak(temperatura, temperaturaMedia, nivel, nivelMedio);
+  enviarParaThingSpeak(temperaturaLocal, temperaturaMedia, nivelLocal, nivelMedio);
 
   delay(15000);
 }
